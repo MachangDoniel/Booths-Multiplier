@@ -1,0 +1,24 @@
+Active-HDL 15.0.261.9132 2024-11-25 14:59:14
+
+Elaboration top modules:
+Verilog Module                boothmultiplier_tb
+
+
+-----------------------------------------------------------------------------------------------------
+Verilog Module          | Library           | Info | Compiler Version          | Compilation Options
+-----------------------------------------------------------------------------------------------------
+boothmultiplier_tb      | Booths_Multiplier |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+boothmultiplier         | Booths_Multiplier |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+shiftreg                | Booths_Multiplier |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+dflipflop               | Booths_Multiplier |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+PIPO                    | Booths_Multiplier |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+ALU                     | Booths_Multiplier |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+bitcounter              | Booths_Multiplier |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+controller              | Booths_Multiplier |      | 15.0.261.9132 (Windows64) | -O2 -sv2k17
+-----------------------------------------------------------------------------------------------------
+
+-----------------------------------------------------------------------------------------------------
+Library                 | Comment
+-----------------------------------------------------------------------------------------------------
+Booths_Multiplier       | None
+-----------------------------------------------------------------------------------------------------

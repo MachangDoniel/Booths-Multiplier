@@ -1,0 +1,11 @@
+[Version]
+Version=15.0
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+[Designs]
+booths multiplier=.\Booths Multiplier\Booths Multiplier.adf
+[Expand]
+booths multiplier=1

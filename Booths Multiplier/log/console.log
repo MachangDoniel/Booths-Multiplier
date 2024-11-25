@@ -1,0 +1,1573 @@
+# Design: Design Booths Multiplier already active.
+# DESIGN: Default Design Language: VHDL
+# DESIGN: Default BDE Language: VHDL
+# DESIGN: C-Synthesis: Not Defined
+# DESIGN: HDL Synthesis: Not Defined
+# DESIGN: Physical Synthesis: Not Defined
+# DESIGN: Implementation: Not Defined
+alog -O2 -sve -msg 5 -sv2k17 -work Booths_Multiplier $dsn/src/ALU.v
+# Unit top modules: ALU.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+alog -O2 -sve -msg 5 -sv2k17 -work Booths_Multiplier $dsn/src/ALU.v $dsn/src/PIPO.v $dsn/src/bitcounter.v $dsn/src/boothmultiplier.v $dsn/src/boothmultiplier_tb.v $dsn/src/controller.v $dsn/src/dflipflop.v $dsn/src/shiftreg.v
+# Unit top modules: boothmultiplier_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 1[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.1 [s].
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+boothmultiplier_tb boothmultiplier_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'F:\Academic\4th Year\8th Semester\DSD things\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.4 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 1.5 [s]
+# SLP: Finished : 2.0 [s]
+# SLP: 0 primitives and 13 (100.00%) other processes in SLP
+# SLP: 75 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 2.3 [s].
+# KERNEL: SLP loading done - time: 0.1 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4681 kB (elbread=427 elab2=4120 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location f:\Academic\4th Year\8th Semester\dsd\Booths_Multiplier\Booths Multiplier\src\wave.asdb
+#  2:56 PM, Monday, November 25, 2024
+#  Simulation has been initialized
+run
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Acc_A.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Mlpr_Q.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.d_ff.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Mlcd_M.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Adsub.out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "countdata" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on countdata.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.counter.countdata is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "state" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on state.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.fsm.state is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# RUNTIME: Info: RUNTIME_0068 boothmultiplier_tb.v (50): $finish called.
+# KERNEL: Time: 530 ps,  Iteration: 0,  Instance: /boothmultiplier_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 530 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+boothmultiplier_tb boothmultiplier_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'F:\Academic\4th Year\8th Semester\DSD things\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 13 (100.00%) other processes in SLP
+# SLP: 75 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4681 kB (elbread=427 elab2=4120 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location f:\Academic\4th Year\8th Semester\dsd\Booths_Multiplier\Booths Multiplier\src\wave.asdb
+#  2:57 PM, Monday, November 25, 2024
+#  Simulation has been initialized
+run
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Acc_A.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Mlpr_Q.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.d_ff.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Mlcd_M.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Adsub.out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "countdata" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on countdata.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.counter.countdata is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "state" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on state.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.fsm.state is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# RUNTIME: Info: RUNTIME_0068 boothmultiplier_tb.v (50): $finish called.
+# KERNEL: Time: 530 ps,  Iteration: 0,  Instance: /boothmultiplier_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 530 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+boothmultiplier_tb boothmultiplier_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'F:\Academic\4th Year\8th Semester\DSD things\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 13 (100.00%) other processes in SLP
+# SLP: 75 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4681 kB (elbread=427 elab2=4120 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location f:\Academic\4th Year\8th Semester\dsd\Booths_Multiplier\Booths Multiplier\src\wave.asdb
+#  2:57 PM, Monday, November 25, 2024
+#  Simulation has been initialized
+run
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Acc_A.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Mlpr_Q.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.d_ff.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Mlcd_M.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Adsub.out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "countdata" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on countdata.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.counter.countdata is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "state" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on state.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.fsm.state is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# RUNTIME: Info: RUNTIME_0068 boothmultiplier_tb.v (50): $finish called.
+# KERNEL: Time: 530 ps,  Iteration: 0,  Instance: /boothmultiplier_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 530 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+run
+run
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+boothmultiplier_tb boothmultiplier_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'F:\Academic\4th Year\8th Semester\DSD things\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 13 (100.00%) other processes in SLP
+# SLP: 75 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4681 kB (elbread=427 elab2=4120 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location f:\Academic\4th Year\8th Semester\dsd\Booths_Multiplier\Booths Multiplier\src\wave.asdb
+#  2:57 PM, Monday, November 25, 2024
+#  Simulation has been initialized
+run
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Acc_A.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Mlpr_Q.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.d_ff.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Mlcd_M.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Adsub.out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "countdata" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on countdata.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.counter.countdata is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "state" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on state.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.fsm.state is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# RUNTIME: Info: RUNTIME_0068 boothmultiplier_tb.v (50): $finish called.
+# KERNEL: Time: 530 ps,  Iteration: 0,  Instance: /boothmultiplier_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 530 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: 4 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'f:/Academic/4th Year/8th Semester/dsd/Booths_Multiplier/Booths Multiplier/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+boothmultiplier_tb boothmultiplier_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'F:\Academic\4th Year\8th Semester\DSD things\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Finished. Using existing simulator library
+# SLP: 0 primitives and 13 (100.00%) other processes in SLP
+# SLP: 75 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.1 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4681 kB (elbread=427 elab2=4120 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location f:\Academic\4th Year\8th Semester\dsd\Booths_Multiplier\Booths Multiplier\src\wave.asdb
+#  2:58 PM, Monday, November 25, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'f:/Academic/4th Year/8th Semester/dsd/Booths_Multiplier/Booths Multiplier/src/wave.asdb'.
+run
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Acc_A.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Mlpr_Q.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.d_ff.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Mlcd_M.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Adsub.out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "countdata" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on countdata.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.counter.countdata is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "state" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on state.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.fsm.state is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# RUNTIME: Info: RUNTIME_0068 boothmultiplier_tb.v (50): $finish called.
+# KERNEL: Time: 530 ps,  Iteration: 0,  Instance: /boothmultiplier_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 530 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+boothmultiplier_tb boothmultiplier_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+asim -O5 +access +r +m+boothmultiplier_tb boothmultiplier_tb
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+alog -O2 -sve -msg 5 -sv2k17 -work Booths_Multiplier $dsn/src/boothmultiplier_tb.v
+# Unit top modules: boothmultiplier_tb.
+# Compile success 0 Errors 0 Warnings  Analysis time: 0[s].
+# done
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# KERNEL: PLI/VHPI kernel's engine initialization done.
+# PLI: Loading library 'F:\Academic\4th Year\8th Semester\DSD things\bin\systf.dll'
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... done : 0.0 [s]
+# SLP: Generation phase ...
+# SLP: Generation phase ... done : 0.5 [s]
+# SLP: Finished : 0.5 [s]
+# SLP: 0 primitives and 13 (100.00%) other processes in SLP
+# SLP: 75 (100.00%) signals in SLP and 0 interface signals
+# ELAB2: Elaboration final pass complete - time: 0.5 [s].
+# KERNEL: SLP loading done - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: SLP simulation initialization done - time: 0.0 [s].
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 4681 kB (elbread=427 elab2=4120 kernel=134 sdf=0)
+# KERNEL: ASDB file was created in location f:\Academic\4th Year\8th Semester\dsd\Booths_Multiplier\Booths Multiplier\src\wave.asdb
+#  2:59 PM, Monday, November 25, 2024
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'f:/Academic/4th Year/8th Semester/dsd/Booths_Multiplier/Booths Multiplier/src/wave.asdb'.
+run
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Acc_A" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Acc_A.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlpr_Q" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Mlpr_Q.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/d_ff" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.d_ff.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Mlcd_M" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "data_out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on data_out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Mlcd_M.data_out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/Adsub" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "out" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on out.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.Adsub.out is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/counter" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "countdata" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on countdata.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.counter.countdata is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# PLI: The requested "/boothmultiplier_tb/dut/fsm" data cannot be accessed. Use the +access +r argument of the asim command for this region.
+# KERNEL: Error: KERNEL_0085 "state" does not have read access. Use switch +access +r for this region.
+# PLI:  (acc_vcl_add): Cannot set the value change callback on state.
+# PLI: $dumpvars(boothmultiplier_tb.v:56): Object boothmultiplier_tb.dut.fsm.state is not registered [systf:VCD13]
+# PLI:  (acc_vcl_delete): Invalid parameter specified.
+# RUNTIME: Info: RUNTIME_0068 boothmultiplier_tb.v (50): $finish called.
+# KERNEL: Time: 5300 ps,  Iteration: 0,  Instance: /boothmultiplier_tb,  Process: @INITIAL#42_1@.
+# KERNEL: stopped at time: 5300 ps
+# VSIM: Simulation has finished. There are no more test vectors to simulate.

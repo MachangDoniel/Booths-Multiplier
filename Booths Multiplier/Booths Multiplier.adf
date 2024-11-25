@@ -1,0 +1,44 @@
+[Project]
+Current Flow=Multivendor
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Booths_Multiplier
+[Library]
+Booths_Multiplier=.\Booths_Multiplier\Booths_Multiplier.lib
+[$LibMap$]
+Booths_Multiplier=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=ONLY_IMPL
+ON_SERVERFARM_SYNTH=0
+ON_SERVERFARM_IMPL=0
+ON_SERVERFARM_SIM=0
+[IMPLEMENTATION]
+UCF=
+[Files]
+/ALU.v=-1
+/PIPO.v=-1
+/bitcounter.v=-1
+/boothmultiplier.v=-1
+/boothmultiplier_tb.v=-1
+/controller.v=-1
+/dflipflop.v=-1
+/shiftreg.v=-1
+[Files.Data]
+.\src\ALU.v=Verilog Source Code
+.\src\PIPO.v=Verilog Source Code
+.\src\bitcounter.v=Verilog Source Code
+.\src\boothmultiplier.v=Verilog Source Code
+.\src\boothmultiplier_tb.v=Verilog Source Code
+.\src\controller.v=Verilog Source Code
+.\src\dflipflop.v=Verilog Source Code
+.\src\shiftreg.v=Verilog Source Code
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

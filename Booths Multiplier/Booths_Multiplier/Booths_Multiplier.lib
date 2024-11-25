@@ -1,0 +1,87 @@
+timestamp=1732525154546
+
+[~A]
+LastVerilogToplevel=boothmultiplier_tb
+ModifyID=3
+Version=74
+f:/Academic/4th Year/8th Semester/dsd/Booths_Multiplier/Booths Multiplier/src/ALU.v=0*380*935
+f:/Academic/4th Year/8th Semester/dsd/Booths_Multiplier/Booths Multiplier/src/ALU.v_PIPO.v_bitcounter.v_boothmultiplier.v_boothmultiplier_tb.v_controller.v_dflipflop.v_shiftreg.v=0*3772*6423
+f:/Academic/4th Year/8th Semester/dsd/Booths_Multiplier/Booths Multiplier/src/boothmultiplier_tb.v=0*7546*8244
+
+[~MFT]
+0=4|0Booths_Multiplier.mgf|8244|0
+1=4|1Booths_Multiplier.mgf|16735|3369
+3=8|3Booths_Multiplier.mgf|11879|2811
+
+[$root]
+A/$root=22|||1*16361
+BinW64/$root=3*10632
+SLP=3*10747
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c73a565f2ade592f8ac1c68f484c9216b180727e5d1690d59cc6b2c53f144354
+
+[ALU]
+A/ALU=22|../src/ALU.v|27|1*1876
+BinW64/ALU=3*1241
+R=../src/ALU.v|27
+SLP=3*1862
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|b3eb40c25b2a3c0379c7730185183eece29fd579e71cf7ed9943a5f5e2c187b3
+
+[PIPO]
+A/PIPO=22|../src/PIPO.v|27|1*3004
+BinW64/PIPO=3*2116
+R=../src/PIPO.v|27
+SLP=3*2519
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|977ac03b9a30289234506f1179de0e40035a977b42cb74b7d35cbcb074a559a0
+
+[bitcounter]
+A/bitcounter=22|../src/bitcounter.v|27|1*4236
+BinW64/bitcounter=3*2728
+R=../src/bitcounter.v|27
+SLP=3*3275
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|c5d090bef657f21ff44f9d965fc80d8ee374d5e526029e0eb1b2839f0f69ab2563864de1874311fd517d1d5c2e344246
+
+[boothmultiplier]
+A/boothmultiplier=22|../src/boothmultiplier.v|27|1*5327
+BinW64/boothmultiplier=3*3542
+R=../src/boothmultiplier.v|27
+SLP=3*4039
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|aea71ceae95ded3d1500982ab059b1daf1344eb6a8ecf8ff6defdb640ad7495b9cef25df6debc3a9692e7e81596f4b1c
+
+[boothmultiplier_tb]
+A/boothmultiplier_tb=22|../src/boothmultiplier_tb.v|27|1*16735
+BinW64/boothmultiplier_tb=3*10815
+R=../src/boothmultiplier_tb.v|27
+SLP=3*11879
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|aea71ceae95ded3d1500982ab059b1da5d012f87b8471d030feb7d275ed8cc4769b45295221677d47538cddee506b347
+
+[controller]
+A/controller=22|../src/controller.v|27|1*11629
+BinW64/controller=3*5878
+R=../src/controller.v|27
+SLP=3*7954
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|37559bb714d9790ed0d2b33a2227305569fc64f104d581d1d39b9b8592bd86360fccb7fde9643e56863ad0711f7f311b
+
+[dflipflop]
+A/dflipflop=22|../src/dflipflop.v|27|1*10556
+BinW64/dflipflop=3*5286
+R=../src/dflipflop.v|27
+SLP=3*5664
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|3a67d30d807d773d6fff614f8e657a86030c5f4de3ffa3c97f58c5528f1d79138b307ac3395f53f06a5125eaebf25942
+
+[shiftreg]
+A/shiftreg=22|../src/shiftreg.v|27|1*9174
+BinW64/shiftreg=3*4361
+R=../src/shiftreg.v|27
+SLP=3*4960
+Version=15.0.261.9132 (Windows64)|0000000b789cd3f53752d02d2e33ca3634070010af02ea|de86bb28bedfbb64ba0bbb7e8c890d696b28b4e53bff683f3c57bc95b85ee1bcd9196ac467bf0222e242d1646747797a
+
+[~U]
+$root=12|0*7178|
+ALU=12|0*1729|
+PIPO=12|0*1943|
+bitcounter=12|0*2158|
+boothmultiplier=12|0*2386|
+boothmultiplier_tb=12|0*7360||0x10
+controller=12|0*3168|
+dflipflop=12|0*2952|
+shiftreg=12|0*2706|

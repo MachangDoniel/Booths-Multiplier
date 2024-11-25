@@ -1,0 +1,8 @@
+i<>.\src\ALU.v
+i<>.\src\PIPO.v
+i<>.\src\bitcounter.v
+i<>.\src\boothmultiplier.v
+i<>.\src\boothmultiplier_tb.v
+i<>.\src\controller.v
+i<>.\src\dflipflop.v
+i<>.\src\shiftreg.v
